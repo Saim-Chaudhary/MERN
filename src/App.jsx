@@ -9,7 +9,8 @@ function App() {
   const [expandedTopics, setExpandedTopics] = useState({});
 
   useEffect(() => {
-    fetch('http://localhost:3001/api/roadmap')
+    const apiUrl = import.meta.env.VITE_API_URL || '/api/roadmap';
+    fetch(apiUrl)
       .then(res => {
         if (!res.ok) throw new Error('Failed to fetch roadmap');
         return res.json();

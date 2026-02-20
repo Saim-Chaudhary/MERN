@@ -2,6 +2,10 @@
 
 A full-stack application built with **React** and **Express** that provides a comprehensive, structured roadmap for learning the MERN stack from ES6 JavaScript to full-stack deployment.
 
+## 🚀 **[Deploy to Vercel in 5 Minutes](./DEPLOY-QUICK.md)** | [Full Deployment Guide](./DEPLOYMENT_GUIDE.md)
+
+---
+
 ## 🌟 Features
 
 - **Interactive Roadmap**: Expandable phases showing what to learn and when
